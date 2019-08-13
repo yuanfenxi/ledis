@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/redis.v5"
+	"github.com/yuanfenxi/ledis"
 	"github.com/yuanfenxi/ledis/internal/hashtag"
 
 	. "github.com/onsi/ginkgo"

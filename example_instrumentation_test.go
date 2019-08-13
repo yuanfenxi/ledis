@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	redis "gopkg.in/redis.v5"
+	redis "github.com/yuanfenxi/ledis"
 )
 
 func Example_instrumentation() {

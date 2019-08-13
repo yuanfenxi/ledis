@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v5"
+	"github.com/yuanfenxi/ledis"
 )
 
 var client *redis.Client

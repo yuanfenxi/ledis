@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"gopkg.in/redis.v5"
+	"github.com/yuanfenxi/ledis"
 )
 
 var _ = Describe("races", func() {

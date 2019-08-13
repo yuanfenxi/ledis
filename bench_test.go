@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/redis.v5"
+	"github.com/yuanfenxi/ledis"
 )
 
 func benchmarkRedisClient(poolSize int) *redis.Client {
